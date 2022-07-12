@@ -1,2 +1,22 @@
+$header1: 3rem;
+$header2: 2.5rem;
+$header3: 2rem;
+$text: 1rem;
+$gradient: linear-gradient(left,#38d395,#38a4d3);
+$background-color: #154353;
+$gray-text:#2c2c2c;
+@mixin flex($justify,$align,$direction){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+
+}
 @import "global";
+@import "intro";
+
+
+
+
+
 
