@@ -69,6 +69,13 @@ nav ul {
   flex: 1 1 40rem;
 }
 
+.active {
+  background: #6c63ff;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
 .intro {
   min-height: 90vh;
   width: 90%;
@@ -78,4 +85,50 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+}
+.intro .intro-text h3 {
+  margin: 2rem 0;
+  color: #5c42f8;
+}
+.intro .intro-text .intro-social img {
+  width: 9%;
+  margin: 3rem 3rem 0 0;
+}
+
+@-webkit-keyframes move-box {
+  from {
+    transform: translate(0, 0%);
+  }
+  to {
+    transform: translate(0, 15%);
+  }
+}
+
+@keyframes move-box {
+  from {
+    transform: translate(0, 0%);
+  }
+  to {
+    transform: translate(0, 15%);
+  }
+}
+#box2_on, #box3_on {
+  display: none;
+}
+
+#box1_on {
+  -webkit-animation: move-box 1.5s ease-in-out infinite;
+          animation: move-box 1.5s ease-in-out infinite;
+}
+
+@media screen and (max-width: 1130px) {
+  svg {
+    width: 80%;
+  }
+  nav {
+    margin-bottom: 3em;
+  }
+  .logo {
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

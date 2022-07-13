@@ -16,6 +16,30 @@ $gray-text:#2c2c2c;
 @import "intro";
 
 
+// animation
+#box2_on,#box3_on{
+    display: none;
+}
+#box1_on{
+    animation: move-box 1.5s ease-in-out infinite;
+}
+
+@media screen and (max-width: 1130px){
+    svg{
+        width: 80%;
+    }
+    nav{
+        margin-bottom: 3em;
+    }
+    .logo{
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
+
 
 
 

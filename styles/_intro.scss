@@ -25,12 +25,44 @@ nav {
 
     }
 }
+.active{
+    background: #6c63ff;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+  
+}
 
 .intro {
     min-height: 90vh;
     width: 90%;
     margin: auto;
+    // border: 2px solid red;
     flex-wrap: wrap;
     @include flex(space-around, center, row);
+    .intro-text{
+        // flex: 1 1 30rem;
+        h3{
+            margin: 2rem 0;
+            color: #5c42f8;
+        }
+        .intro-social img{
+            width: 9%;
+            margin: 3rem 3rem 0 0;
+
+        }
+       
+    }
    
+}
+@keyframes move-box{
+    from{
+        transform: translate(0,0%);
+        
+
+    }
+    to{
+        transform: translate(0,15%);
+        
+    }
 }
