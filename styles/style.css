@@ -159,4 +159,40 @@ nav ul {
 .shoebhamim img {
   width: 95%;
   border-radius: 15px;
+}
+
+.contact {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact input {
+  width: 24rem;
+  height: 3rem;
+  margin: 0 0 3rem 0;
+}
+
+.form-container {
+  padding: 4% 8%;
+  box-shadow: 2px 2px 15px gray;
+  border-radius: 10px;
+}
+.form-container button {
+  margin: 1rem 0 0 0;
+  border: none;
+  background-color: #6c63ff;
+  color: white;
+  padding: 4% 20%;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.form-container button:hover {
+  background-color: #433ea4;
 }/*# sourceMappingURL=style.css.map */
