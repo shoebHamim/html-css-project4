@@ -38,6 +38,34 @@ $gray-text:#2c2c2c;
 
 
 
+.project{
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.travelly,.shoebhamim{
+    text-align: center;
+    flex:1 1 45rem;
+    h2{
+        margin-bottom: 2rem;
+    }
+
+}
+.travelly img{
+    width: 95%;
+    border-radius: 15px;
+}
+.shoebhamim img{
+    width: 95%;
+    border-radius: 15px;
+}
+
 
 
 
